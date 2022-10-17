@@ -1,0 +1,28 @@
+{
+    "FAUXMO": {
+        "ip_address": "auto"
+    },
+    "PLUGINS": {
+        "LCNPlugin": {
+            "path": "lcn_plugin.py",
+            "DEVICES": [
+                {
+                    "port": 12340,
+                    "seg_id": 0,
+                    "mod_id": 11,
+                    "control_type": "R8",
+                    "offset": 5,
+                    "name": "Kitchen Light"
+                },
+                {
+                    "port": 12341,
+                    "seg_id": 0,
+                    "mod_id": 20,
+                    "control_type": "D_OUTPUT",
+                    "offset": 2,
+                    "name": "Dinner Light"
+                }
+            ]
+        }
+    }
+}
