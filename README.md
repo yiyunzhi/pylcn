@@ -8,7 +8,7 @@ only require a JSON config file(lcn_device.json) for setup.
 ## usage
 1. in you python env. install Fauxmo and pypck
 2. adjust the configuration in lcn_device.json, etc. seg_id, mod_id, control_type...
-   currently only support R8H and DIMOutput, you could self add the implementation in lcn_plugin.py. 
-4. start pypck.py or run run.bar directly
+   currently only support control type like R8H and DIMOutput, you could self add the implementations in lcn_plugin.py. 
+4. start pypck.py or run run.bat directly
 5. use Alexa App search the new devices, that you in lcn_device.json defined.
 6. append the found devices into Alexa Device manager, then have a good fun!
